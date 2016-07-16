@@ -2,10 +2,11 @@ body {
 
 }
 
-input:invalid {
+.validate input:invalid,
+input:required {
   background: red;
 }
 
-input:valid {
+.validate input:valid {
   background: green;
 }
