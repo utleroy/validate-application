@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Banking Form</title>
+  <link rel="stylesheet" type="text/css" href="validation.css">
+
+</head>
+
+<h1>Banking Form</h1>
+
+<h5>Applicant Information</h5>
+<form>
+  <input type="input" placeholder="last name"><br>
+  <input type="input" placeholder="middle initial"><br>
+  <input type="input" placeholder="last name"><br>
+  <input type="input" placeholder="address"><br>
+  <input type="input" placeholder="city, state, zip"><br>
+</form>
+
+<h5>Employment Information</h5>
+<input type="input" placeholder="Employer Name"><br>
+<input type="input" placeholder="address"><br>
+<input type="input" placeholder="city, state, zip"><br>
+
+
+
+<h5>Type of loan</h5>
+<select>
+  <option>Commercial</option>
+  <option>Real estate</option>
+  <option>Personal</option>
+  <option>Mortgage</option>
+</select>
+
+<h5>Amount requested</h5>
+<form>
+  <input type="input" placeholder="Type amount here"><br>
+</form>
+
+<h5>Loan Length (yrs)</h5>
+<form>
+  <input type="radio">5
+  <input type="radio">15
+  <input type="radio">30
+</form>
+
+<h5>Check if yes</h5>
+<form>
+  <input type="checkbox">I have a down payment<br>
+  <input type="checkbox">Married<br>
+  <input type="checkbox">Out-of-state resident<br>
+  <input type="checkbox">I have a co-signer
+</form>
+
+<h5>Additional Notes</h5>
+<form>
+  <textarea rows="10" cols="40" placeholder="enter notes here"></textarea>
+</form>
+
+<h5>Contact Info</h5>
+
+<form>
+<div>
+<input type="email" name="email" placeholder="Applicant Email" required><br>
+<input type="tel" name="tel" placeholder="Applicant Phone Number" required><br>
+<input type="url" name="url" placeholder="LinkedIn url" required><br>
+</div>
+</form>
+
+
+<body>
+  <script src="js/main.js"></script>
+</body>
+</html>
+
+
+
+<!--
+When a valid web URL or email address is entered into the corresponding field, the color of the field should be green.
+If the value is invalid, the color should be red.
+ -->
